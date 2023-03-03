@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		82B5BF4929B28CB4009BC696 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B5BF4829B28CB4009BC696 /* AudioPlayer.swift */; };
 		DA1C96A429A7739B0027156B /* RestartApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1C96A329A7739B0027156B /* RestartApp.swift */; };
 		DA1C96A629A7739B0027156B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1C96A529A7739B0027156B /* ContentView.swift */; };
 		DA1C96A829A7739E0027156B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA1C96A729A7739E0027156B /* Assets.xcassets */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		82B5BF4829B28CB4009BC696 /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = SOURCE_ROOT; };
 		DA1C96A029A7739B0027156B /* Restart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Restart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA1C96A329A7739B0027156B /* RestartApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestartApp.swift; sourceTree = "<group>"; };
 		DA1C96A529A7739B0027156B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -172,6 +174,7 @@
 		DA1C96D429A776100027156B /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				82B5BF4829B28CB4009BC696 /* AudioPlayer.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -313,6 +316,7 @@
 				DA1C96D929A778570027156B /* HomeView.swift in Sources */,
 				DA1C96A629A7739B0027156B /* ContentView.swift in Sources */,
 				DA1C96A429A7739B0027156B /* RestartApp.swift in Sources */,
+				82B5BF4929B28CB4009BC696 /* AudioPlayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,7 +475,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Restart/Preview Content\"";
-				DEVELOPMENT_TEAM = M4Z9846KT7;
+				DEVELOPMENT_TEAM = 5DVZ6D5ZG2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Restart/Info.plist;
@@ -503,7 +507,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Restart/Preview Content\"";
-				DEVELOPMENT_TEAM = M4Z9846KT7;
+				DEVELOPMENT_TEAM = 5DVZ6D5ZG2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Restart/Info.plist;
